@@ -1,11 +1,12 @@
 #include <iostream>
 #include <cmath>
-#include "LearnStrings.h"
-
+#include "Strings.h"
+#include "Numbers.h"
 
 
 int main() {
-    stringWork();
+    strings();
+    numbers();
 
     return 0;
 }

@@ -7,7 +7,7 @@
 #define ADVANCEDCPP_LEARNSTRINGS_H
 
 
-void stringWork();
+void strings();
 
 
 #endif //ADVANCEDCPP_LEARNSTRINGS_H
