@@ -6,13 +6,17 @@
 
 void userInputs(){
     using namespace std;
-
     cout << "\nUSER INPUT:\n" << endl;
 
+    string color, pluralNoun, celebrity;
 
-    double age;
-    cout << "Enter your age: ";
-    cin >> age;
+    cout << "Enter a celebrity: ";
+    getline(cin, celebrity);
+    cin.clear();
+    cout << "Enter a color: ";
+    getline(cin, color);
+    cout << "Enter a plural noun: ";
+    getline(cin, pluralNoun);
 
-    cout << "You are " << age << " years old!" << endl;
+    cout << celebrity << " ran away with " << color << " " << pluralNoun << endl;
 }
