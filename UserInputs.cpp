@@ -15,11 +15,4 @@ void userInputs(){
     cin >> age;
 
     cout << "You are " << age << " years old!" << endl;
-
-//    string name;
-//    cout << "Enter your name: " << endl;
-//    getline(cin, name);  // Using cin, get the line of input and store it to name
-//
-//    cout << "Hello " << name << endl;
-
 }
