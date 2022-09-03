@@ -3,14 +3,15 @@
 #include "UserInputs.h"
 #include "Arrays.h"
 #include "Switches.h"
+#include "Lists.h"
 
 int main() {
     strings();
     numbers();
-    userInputs();
+//    userInputs(); Annoying to input
     arrays();
     switches();
-
+    lists();
 
     return 0;
 }
