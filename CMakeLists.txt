@@ -3,4 +3,4 @@ project(AdvancedCPP)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(AdvancedCPP main.cpp)
+add_executable(AdvancedCPP main.cpp LearnStrings.h LearnStrings.cpp)
