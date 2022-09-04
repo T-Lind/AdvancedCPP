@@ -16,7 +16,7 @@ public:
     double getC();
     string getName();
 
-    void setA(int a);
+    virtual void setA(int a);
     void setC(double c);
     void setName(string name);
 
