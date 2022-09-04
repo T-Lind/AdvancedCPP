@@ -9,7 +9,7 @@
 #define ADVANCEDCPP_LEARNNUMBERS_H
 
 
-void numbers();
+void number_s();
 
 
 #endif //ADVANCEDCPP_LEARNNUMBERS_H

@@ -21,7 +21,7 @@ void arrays(){
 
     cout << endl;
 
-    // Arrays aren't exactly static - using the for-each loop like the one above results in only the original numbers
+    // Arrays aren't exactly static - using the for-each loop like the one above results in only the original number_s
     // being printed, but assigning index 4 - which is past the end of the array - I can use a for loop to access it!
     luckyNums[4] = 69;
 

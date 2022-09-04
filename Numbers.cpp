@@ -4,7 +4,7 @@
 
 #include "Numbers.h"
 
-void numbers() {
+void number_s() {
     using namespace std;
 
     cout << "\nNUMBERS:\n" << endl;
