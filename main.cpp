@@ -4,6 +4,8 @@
 #include "Arrays.h"
 #include "Switches.h"
 #include "Lists.h"
+#include "Arrays2D.h"
+
 
 int main() {
     strings();
@@ -12,6 +14,7 @@ int main() {
     arrays();
     switches();
     lists();
+    arrays2D();
 
     return 0;
 }
