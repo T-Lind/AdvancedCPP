@@ -5,6 +5,7 @@
 #include "Switches.h"
 #include "Lists.h"
 #include "Arrays2D.h"
+#include "Pointers.h"
 
 
 int main() {
@@ -15,6 +16,7 @@ int main() {
     switches();
     lists();
     arrays2D();
+    pointers();
 
     return 0;
 }
