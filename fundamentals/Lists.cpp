@@ -35,6 +35,6 @@ void lists(){
     cout << "List with two elements removed: ";
     printIntList(my_list);
 
-    // Find the size of the list
-    cout << "List size: " << my_list.size() << endl;
+    // Find the length of the list
+    cout << "List length: " << my_list.size() << endl;
 }
