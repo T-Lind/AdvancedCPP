@@ -25,6 +25,15 @@ int main() {
     listMap.add(79);
     cout << listMap.toString() << endl;
 
+    auto wordMap = Hashlist<string>(10, [&] (const string& input) -> int{return input.length() % 10;});
+    wordMap.add("Testing");
+    wordMap.add("Bananas!");
+    wordMap.add("FTC-9527");
+    wordMap.add("Stringcheez");
+    wordMap.add("Another...");
+    cout << wordMap.toString() << endl;
+
+
 //    strings();
 //    number_s();
 ////    userInputs(); Annoying to input
