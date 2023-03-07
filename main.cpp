@@ -9,11 +9,21 @@
 #include "fundamentals/Classes.h"
 #include "fundamentals/Inheritances.h"
 #include "datastructures/Hashmap.h"
+#include "datastructures/Hashlist.h"
 
 int main() {
     auto map = Hashmap<int>(10, [&] (int input) -> int{return input % 10;});
     map.add(14);
+    map.add(213);
+    map.add(99);
     cout << map.toString() << endl;
+
+    auto listMap = Hashlist<int>(10, [&] (int input) -> int{return input % 10;});
+    listMap.add(14);
+    listMap.add(213);
+    listMap.add(99);
+    listMap.add(79);
+    cout << listMap.toString() << endl;
 
 //    strings();
 //    number_s();
